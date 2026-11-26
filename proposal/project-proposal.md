@@ -1,4 +1,4 @@
-# 1.Title: StudyBuddy: Student Study & Productivity Tracker
+# 1. Title: StudyBuddy: Student Study & Productivity Tracker
 
 ## 2. Brief Description
 
