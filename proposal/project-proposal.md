@@ -1,13 +1,13 @@
-# StudyBuddy: Student Study & Productivity Tracker
+# 1.Title: StudyBuddy: Student Study & Productivity Tracker
 
-## 1. Brief Description
+## 2. Brief Description
 
 StudyBuddy is a Python-based application designed to help
 students organize their academic tasks and monitor their
 study habits. It allows users to manage assignments,
 record study sessions, and view productivity summaries.
 
-## 2. Problem Statement
+## 3. Problem Statement
 
 Students often struggle to manage multiple academic
 responsibilities, remember deadlines, and maintain
@@ -17,7 +17,7 @@ StudyBuddy aims to address these problems by providing
 a simple system where students can organize their tasks,
 record their study sessions, and monitor their productivity.
 
-## 3. Proposed Features
+## 4. Proposed Features
 
 - Add new academic tasks.
 - View saved tasks.
@@ -28,7 +28,7 @@ record their study sessions, and monitor their productivity.
 - Display task completion percentages.
 - Analyze study time by subject.
 
-## 4. Data to be Collected and Stored
+## 5. Data to be Collected and Stored
 
 The application will store the following information:
 
@@ -46,13 +46,14 @@ The application will store the following information:
 
 The information will be stored using JSON files.
 
-## 5. Sample Wireframe
+## 6. Sample Wireframe
 
 In file wireframe.md
 
-## 6. Task Schedule and Assigned Members
+## 7. Task Schedule and Assigned Members
 
 Arranged by Date/Schedule, Task, and Member:
+
 Day 1, Plan the application and design its flow, Member 1
 Day 2, Create the main menu and navigation, Member 2 
 Day 3, Develop the Manage Tasks feature, Member 3 
