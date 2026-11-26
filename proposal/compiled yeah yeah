@@ -1,0 +1,123 @@
+1. Title
+STUDYBUDDY: A Student Task and Study Session Tracker
+
+2. Brief Description
+StudyBuddy is an application designed to help students organize their academic tasks and monitor their study habits. It allows users to manage assignments, record study sessions, and view productivity reports. All information is saved in a JSON file so users can access their records even after closing the application.
+
+3. Problem Statement
+Students sometimes struggle to manage their academic tasks, keep track of deadlines, and monitor their study habits. Without proper organization, they may forget assignments or have difficulty determining how much time they spend studying. StudyBuddy aims to solve these problems by providing a simple application that organizes tasks and tracks study sessions in one place.
+
+4. Outline of Features
+A. Manage Tasks
+- Add new academic tasks.
+- View all saved tasks.
+- Update existing task information.
+- Delete existing tasks.
+
+B. Record Study Session
+- Enter the subject studied.
+- Record the duration of the study session.
+- Save the date of the study session.
+
+C. View Productivity Report
+- Display total study hours.
+- Show the number of completed tasks.
+- Calculate the task completion percentage.
+- Identify the most studied subject.
+
+D. Persistent Data Storage
+- Save all tasks and study sessions in a JSON file.
+- Retrieve previously saved information whenever the application is opened.
+- Update the stored information whenever tasks are added, edited, or deleted.
+
+E. Exit
+- Allow users to safely close the application.
+- Ensure that saved information remains available for future use.
+
+5. Description of Data to Be Collected and Stored as Persistent Data
+The application will collect and store the following information in a JSON file:
+
+| Data | Description |
+|---|---|
+| Task ID | A unique identifier assigned to each academic task. |
+| Task Name | The name or title of the assignment or activity. |
+| Subject | The academic subject related to the task. |
+| Due Date | The deadline of the academic task. |
+| Status | Indicates whether the task is completed or pending. |
+| Study Subject | The subject studied during a session. |
+| Study Duration | The amount of time spent studying. |
+| Study Date | The date when the study session took place. |
+
+This information will be stored in a JSON file to ensure that the user's records remain available whenever the application is opened again. The saved data will also be used to generate accurate productivity reports.
+
+6. Sample Wireframe of the Application
+
+The following wireframes illustrate the proposed layout and organization of the application's screens.
+
+A. Main Menu
++----------------------------------+
+|           STUDYBUDDY             |
+|      Your Personal Study Tracker |
++----------------------------------+
+|                                  |
+|           MAIN MENU              |
+|                                  |
+|  1. Manage Tasks                 |
+|  2. Record Study Session         |
+|  3. View Productivity Report    |
+|  4. Exit                         |
+|                                  |
+|  Select an option: __        |
++----------------------------------+
+
+B. Manage Tasks
++----------------------------------+
+|           MANAGE TASKS           |
++----------------------------------+
+|  1. Add New Task                 |
+|  2. View All Tasks               |
+|  3. Update Task                  |
+|  4. Delete Task                  |
+|  5. Back to Main Menu            |
++----------------------------------+
+
+C. Record Study Session
++----------------------------------+
+|       RECORD STUDY SESSION       |
++----------------------------------+
+|                                  |
+|  Subject: ____________         |
+|  Duration: ___________         |
+|  Date: _______________         |
+|                                  |
+|        [ SAVE SESSION ]          |
+|                                  |
++----------------------------------+
+
+D. Productivity Report
++----------------------------------+
+|        PRODUCTIVITY REPORT       |
++----------------------------------+
+|                                  |
+|  Total Study Hours: 12 hrs       |
+|  Completed Tasks: 8              |
+|  Task Completion: 80%            |
+|  Most Studied Subject: Science   |
+|                                  |
+|       [ BACK TO MENU ]           |
++----------------------------------+
+The values shown in the productivity report above are examples only.
+
+7. Task Schedule and Assigned Team Members
+
+The following table presents the proposed project schedule and the responsibilities assigned to each team member.
+
+| Schedule | Task | Assigned Member |
+|---|---|---|
+| Day 1 | Plan the application and design its flow | Member 1 |
+| Day 2 | Create the main menu and navigation | Member 2 |
+| Day 3 | Develop the Manage Tasks feature | Member 3 |
+| Day 4 | Develop the Record Study Session feature | Member 1 |
+| Day 5 | Create the Productivity Report | Member 1 |
+| Day 6 | Implement JSON file storage | Member 2 |
+| Day 7 | Test, debug, and finalize the application | All Members |
