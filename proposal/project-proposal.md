@@ -48,8 +48,16 @@ The information will be stored using JSON files.
 
 ## 5. Sample Wireframe
 
-To be added.
+
 
 ## 6. Task Schedule and Assigned Members
 
-To be completed by the group.
+|  Date |                   Task                   |  Member  |
+|       |                                          |          |
+| Day 1 | Plan the application and design its flow | Member 1 |
+| Day 2 | Create the main menu and navigation      | Member 2 |
+| Day 3 | Develop the Manage Tasks feature         | Member 3 |
+| Day 4 | Develop the Record Study Session feature | Member 1 |
+| Day 5 | Create the Productivity Report           | Member 1 |
+| Day 6 | Implement JSON file storage              | Member 2 |
+| Day 7 | Test, debug, and finalize the application| All Members |
